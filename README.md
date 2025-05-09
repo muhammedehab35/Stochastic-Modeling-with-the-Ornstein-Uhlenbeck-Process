@@ -35,11 +35,11 @@ Wₜ : mouvement brownien standard (bruit aléatoire continu)
 
 💡 Ce processus est gaussien, stationnaire et markovien. Il est souvent considéré comme une généralisation du mouvement brownien, avec un terme de réversion.
 
-🛠️ Fichiers Disponibles
+## 🛠️ Fichiers Disponibles
 ORNSTEIN_UHLENBECK.ipynb : le notebook principal contenant le code, les visualisations et les commentaires explicatifs.
 
 
-🔬 Applications du Processus OU
+## 🔬 Applications du Processus OU
 Voici quelques domaines où le processus d'Ornstein-Uhlenbeck est utilisé :
 
 💸 Finance : Modélisation des taux d’intérêt (modèle de Vasicek), volatilité, etc.
