@@ -54,4 +54,4 @@ Le **processus d'Ornstein-Uhlenbeck** est une solution d’une équation différ
 Assurez-vous d’avoir Python installé, ainsi que les bibliothèques suivantes :
 
 ```bash
-pip install numpy matplotlib
+pip install numpy matplotlib , pandas seaborn , yfinance
