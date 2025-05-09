@@ -20,13 +20,38 @@ Ce notebook a pour but de :
 
 Le **processus d'Ornstein-Uhlenbeck** est une solution d’une équation différentielle stochastique (EDS) de la forme :
 
-```math
-dXₜ = θ(μ - Xₜ)dt + σdWₜ
+
+### 🔢 Signification des paramètres
+
+- **Xₜ** : valeur du processus à l’instant t  
+- **θ (thêta)** : vitesse de réversion à la moyenne  
+- **μ (mu)** : moyenne de long terme (valeur cible)  
+- **σ (sigma)** : volatilité du processus (amplitude des perturbations aléatoires)  
+- **Wₜ** : mouvement brownien standard (bruit blanc)
+
+### ✨ Propriétés du processus
+
+- **Gaussien** : la distribution de Xₜ est normale  
+- **Stationnaire** : il atteint une distribution stable dans le temps  
+- **Markovien** : il dépend uniquement de son état présent  
 
 ---
-##  🔢 Signification des paramètres
-Xₜ : valeur du processus à l’instant t
-θ (thêta) : vitesse de réversion à la moyenne
-μ (mu) : moyenne de long terme (valeur cible)
-σ (sigma) : volatilité du processus (amplitude des perturbations aléatoires)
-Wₜ : mouvement brownien standard (bruit blanc)
+
+## 🛠️ Fichier Inclus
+
+- 📄 `ORNSTEIN_UHLENBECK.ipynb` : notebook contenant :
+  - ✅ Code Python complet  
+  - 📈 Simulations du processus  
+  - 🎨 Visualisations interactives  
+  - 🧾 Explications détaillées et pédagogiques  
+
+---
+
+## 🚀 Comment Exécuter le Projet
+
+### 📦 Prérequis
+
+Assurez-vous d’avoir Python installé, ainsi que les bibliothèques suivantes :
+
+```bash
+pip install numpy matplotlib
